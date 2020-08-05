@@ -19,4 +19,7 @@ Route::post('/welcome', 'AuthController@welcome_post');
 
 Route::get('/welcome', 'AuthController@welcome');
 
+Route::get('/data-tables', function (){
+    return view('data');
+});
 
